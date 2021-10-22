@@ -1,0 +1,29 @@
+.imgperfil{
+    
+    width: 100%;
+}
+
+.p1{
+    text-align: center;
+}
+
+.flex-container{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.title-video{
+text-align: center;
+}
