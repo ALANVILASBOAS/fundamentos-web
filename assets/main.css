@@ -110,6 +110,7 @@ figure {
 
 /* -----------------CONTATO-------------------- */
 
+
 .entrecontato{
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 color:rgba(255, 230, 0, 0.815);
@@ -118,6 +119,14 @@ text-shadow:
 -1px 1px 0px rgb(0, 0, 0),                    
  1px -1px 0px rgb(0, 0, 0),                  
  1px 0px 0px rgb(0, 0, 0);
+ text-align: center;
+ margin-left: 136px;
 }
 
-
+.ccontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;
+}
