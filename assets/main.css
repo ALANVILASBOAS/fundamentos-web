@@ -32,6 +32,7 @@
     cursor: pointer;
     transition: .3s ease all;
     
+    
 }
 
 /* efeito de interação com os botões */
@@ -72,3 +73,51 @@
     margin-right: 14px;
     margin-left: 14px;
 }
+
+.title-lugares{
+
+    color:rgb(216, 219, 46);
+    text-shadow: 
+    -1px -1px 0px rgb(0, 0, 0), 
+    -1px 1px 1px rgb(0, 0, 0),                    
+     1px 1px 1px rgb(0, 0, 0),                  
+     1px 1px 1px rgb(0, 0, 0);
+}
+
+
+figure {
+    background-color: rgba(194, 105, 22, 0.500);
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+ 
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease all;
+  }
+  img.scaled {
+    width: 90%;
+  }
+
+  figure:hover{
+    background-color: rgb(231, 219, 54);
+}
+
+/* -----------------CONTATO-------------------- */
+
+.entrecontato{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color:rgba(255, 230, 0, 0.815);
+text-shadow: 
+-1px -1px 0px rgb(0, 0, 0), 
+-1px 1px 0px rgb(0, 0, 0),                    
+ 1px -1px 0px rgb(0, 0, 0),                  
+ 1px 0px 0px rgb(0, 0, 0);
+}
+
+
